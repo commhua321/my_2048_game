@@ -36,17 +36,17 @@ def update_matrix(ai_settings):
 
     #3. [4040] -> [4400] 把所有元素放一邊整理更新，並判斷是否可移動
     temp_matrix = ai_settings.matrix.copy()
+   # merge_row(ai_settings)
+
     tighten_row(ai_settings)
     #4. [4400] -> [8000]
-    merge_row(ai_settings)
+
     #判斷是否可移動
     move_is_possible = True
     if (temp_matrix == merge_row(ai_settings)).all():
         move_is_possible = False
 
-    #再一次的整理更新
-    tighten_row(ai_settings)
-    merge_row(ai_settings)
+
 
 
     #5. 計算0的所有index加入至zerolist
