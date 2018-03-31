@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0935b9f2-5a0f-4032-bb74-9b017619c341" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048_main.py" afterPath="$PROJECT_DIR$/2048_main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blockmatrix.py" afterPath="$PROJECT_DIR$/blockmatrix.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game_functions.py" afterPath="$PROJECT_DIR$/game_functions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
-    </list>
+    <list default="true" id="0935b9f2-5a0f-4032-bb74-9b017619c341" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,8 +127,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="python小遊戲2048" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python小遊戲2048" type="462c0819:PsiDirectoryNode" />
+              <item name="python_game_2048" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_game_2048" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,13 +332,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/field.py" />
-    <entry file="file://$PROJECT_DIR$/matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scoreboard.py" />
     <entry file="file://$PROJECT_DIR$/game_functions.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -370,6 +358,14 @@
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
