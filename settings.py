@@ -17,7 +17,3 @@ class Settings():
         self.reset = False
         self.gameover_check = False
         self.gamewin_check = False
-
-
-
-
