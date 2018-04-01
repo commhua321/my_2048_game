@@ -13,14 +13,14 @@ def run_game():
     clock = pygame.time.Clock()
 
     def init():
-
+        #遊戲初始重置，所有參數初始並且產生兩個隨機數
         gf.reset(ai_settings)
         gf.spawn(ai_settings, move_is_possible=True)
         gf.update_matrix(ai_settings)
         return 'Game'
 
     def not_game(state):
-
+        #目前只有設定遊戲結束時是否重置或結束遊戲
         if state == 'Win':
             pass
         if state == 'Gameover':
@@ -31,7 +31,7 @@ def run_game():
             return 'Gameover'
 
     def game():
-
+        #遊戲中，用戶按鍵檢測，是否下一步，以及贏或輸
         gf.check_events(ai_settings)
         gf.drawSurface(screen, ai_settings, block_matrix)
 
@@ -43,7 +43,8 @@ def run_game():
             gf.show_gamewin(screen)
         return 'Game'
 
-
+    #有限狀態機四種要素，並用狀態轉移函數描述將轉移到哪個狀態
+    #這些函數名存在字典裡，方便循環中的調用
     state_actions = {
         'Init': init,
         'Win': lambda: not_game('Win'),
@@ -54,7 +55,7 @@ def run_game():
 
 
     while True:
-
+        #狀態機開始循環
         clock.tick(60)
         state = state_actions[state]()
         pygame.display.flip()
